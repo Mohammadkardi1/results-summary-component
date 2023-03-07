@@ -1,0 +1,131 @@
+:root{
+    /* Primary */
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(0, 100%, 67%);
+
+    /* Gradients */
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+    
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(243, 85%, 5%, 0);
+
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%) ;
+}
+
+
+
+
+
+/*  */
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 60%;
+    height: 70%;
+    background-color: var(--White);
+    display: flex;
+    box-shadow: 13px 61px 46px -15px hsl(221deg 100% 96%);
+}
+
+
+
+/* Start Result Section */
+.result {
+    background-color: hsl(234, 85%, 45%);
+    color: var(--Pale-blue);
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.result .circle {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: hsl(234, 85%, 45%);
+    border: 1px solid hsl(234, 85%, 45%, 1);
+    box-shadow: -8px -30px 326px 16px hsl(221deg 100% 96%);
+}
+.result .circle .final-result {
+    font-size: 60px;
+    font-weight: bold;
+}
+/* End Result Section */
+
+
+
+/* Start Summary Section */
+.summary {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 40px 40px 0;
+
+}
+
+.marks {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.reaction, .memory, .verbal, .visual {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.summary .marks .reaction {
+    color: var(--Light-red);
+    background-color:hsl(0, 100%, 67%, 0.05) ;
+}
+.summary .marks .memory {
+    color: var(--Orangey-yellow);
+    background-color: hsl(39, 100%, 56%, 0.05) ;
+}
+.summary .marks .verbal {
+    color: var(--Green-teal);
+    background-color:hsl(166, 100%, 37%, 0.05) ;
+}
+.summary .marks .visual {
+    color: var(--Light-royal-blue);
+    background-color:hsl(241, 81%, 54%, 0.05) ;
+}
+.summary .marks .grad {
+    color: var(--Dark-gray-blue);
+}
+.summary .btn-summary {
+    background-color: var(--Dark-gray-blue);
+    border-radius: 40px;
+    border: none;
+    color: var(--Pale-blue);
+    font-size: 20px;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 500;
+}
+.summary .btn-summary:hover {
+    background-color: hsl(234, 85%, 45%);
+    box-shadow: inset 0px 10px 37px -16px hsl(221deg 100% 96%);
+
+}
+/* End Summary Section */
