@@ -42,7 +42,11 @@ body{
     display: flex;
     box-shadow: 13px 61px 46px -15px hsl(221deg 100% 96%);
 }
-
+@media (max-width: 768px){
+    .main {
+        width:100%;
+    }
+}
 
 
 /* Start Result Section */
