@@ -3,47 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  
   <title>Results summary component</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/all.min.css">
   <link rel="stylesheet" href="./css/styles.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
-
 </head>
 <body>
-
-
-
   <div class="body">
-
-
     <div class="main w-sm-100">
       <div class="row g-0 d-flex ">
-  
           <!-- Start Result Column -->
           <div class="col-xm-12 col-lg-6">
-              <div class="result text-center px-5 py-5">
+              <div class="result text-center px-3 py-3">
                 <div class="row g-0">
                   <div class="col-12">
-                      <h4 class="pb-5 m-0 text-white-50">
+                      <h4 class="pb-3 m-0 text-white-50">
                         Your Result
                       </h4>
                   </div>
-          
                   <div class="col-12 d-flex justify-content-center">
                     <div class="circle">
                       <p class="final-result mb-0">76</p>
                       <p>of 100</p>
                     </div>
                   </div>
-          
                   <div class="col-12">
-                    <h3 class="m-0 pt-4 pb-3">Great</h3>
+                    <h3 class="m-0 pt-3 pb-3">Great</h3>
                   </div>
                   <div class="col-12">
                     <p>You scored higher than 65% of the people who have taken these tests.</p>
@@ -53,11 +41,9 @@
           </div>
           <!-- End Result Column -->
 
-
-
           <!-- Start Summary Column -->
           <div class="col-xm-12 col-lg-6 ">
-              <div class="summary text-center h-100 px-5 py-5">
+              <div class="summary text-center h-100 px-3 py-3">
                   <div class="row">
                     <div class="col-12">
                       <div class="title d-flex">
@@ -65,8 +51,8 @@
                       </div>
                     </div>
                     <div class="col-12">
-                      <div class="marks h-60 py-4">
-                        <div class="reaction p-3">
+                      <div class="marks h-60 py-2">
+                        <div class="reaction p-2">
                           <div>
                             <i class="fa-solid fa-bolt-lightning"></i>
                             <p class="d-inline"> Reaction</p>
@@ -76,8 +62,7 @@
                             <span class="text-black-50">/ 100</span>
                           </div>
                         </div>
-  
-                        <div class="memory p-3">
+                        <div class="memory p-2">
                           <div>
                             <i class="fa-solid fa-brain"></i>
                             <p class="d-inline" >Memory</p>
@@ -87,7 +72,7 @@
                             <span class="text-black-50">/ 100</span>
                           </div>
                         </div>
-                        <div class="verbal p-3">
+                        <div class="verbal p-2">
                           <div>
                             <i class="fa-solid fa-cloud"></i>
                             <p class="d-inline">Verbal</p>
@@ -95,10 +80,9 @@
                           <div>
                             <p class="m-0 grad fw-bold d-inline" id="verbal"></p>
                             <span class="text-black-50">/ 100</span>
-
                           </div>
                         </div>
-                        <div class="visual p-3">
+                        <div class="visual p-2">
                           <div>
                             <i class="fa-solid fa-eye"></i>
                             <p class="d-inline">Visual</p>
@@ -106,7 +90,6 @@
                           <div>
                             <p class="m-0 fw-bold grad d-inline" id="visual"></p>
                             <span class="text-black-50"> / 100</span>
-
                           </div>
                         </div>
                       </div>
@@ -137,6 +120,5 @@
       }
     })
   </script>
-
 </body>
 </html>
